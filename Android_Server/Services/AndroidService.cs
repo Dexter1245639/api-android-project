@@ -124,7 +124,7 @@ namespace Android_Server.Services
         }
 
         // Klucz API z https://aistudio.google.com/apikey
-        private static readonly string API_KEY = "AIzaSyCaE1FKoja1DHJ2rWfB25HxeewPEk699gs";
+        private static readonly string API_KEY = "YOUR_API_KEY";
         private static readonly string API_URL = $"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={API_KEY}";
 
         public async Task<string> GetPhotoDescription(string base64Photo)
